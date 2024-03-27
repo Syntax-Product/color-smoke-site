@@ -183,8 +183,8 @@ header{
                                     -webkit-text-stroke: .7px black;
                                     
                                 }
-                            a:hover{
-                                border-bottom:1px solid black ;
+                            a:hover{                                
+                                color: #f56a88;
                             
                             }
                         }
@@ -211,7 +211,7 @@ header{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        // baket style 
+         /* baket style  */
         .header-media__nav_basket{
             width: 60px;
             height: 60px;
@@ -219,7 +219,7 @@ header{
                     width: 100%;
                 }
         }
-        // logo style
+        /* // logo style */
         .header-media__nav_logo{
             padding: 0;
             margin: 0;
@@ -276,7 +276,7 @@ header{
         }
     }
 }
-// стили активации бургера и попапа
+/* // стили активации бургера и попапа */
 .burger.active{
 
     span:first-child{
@@ -304,7 +304,7 @@ header{
 
 
 
-// 
+
 .burger-button{
     max-width: 30px;
     max-height: 30px;
@@ -347,7 +347,7 @@ header{
         height: 4px;
         bottom: 0;
     }
-// popup style
+/* // popup style */
 
 }
 
@@ -385,6 +385,7 @@ header{
             }
             /* // стили для кнопок выбора цвета  */
             .color-buttons-wrapper{
+                display: none;
                 position: absolute;
                 bottom: 15px;
                 left: 15px;
@@ -431,24 +432,60 @@ header{
                     margin: 0;
                     font-size: 1.2em;
                 }
-                .card_stars{
-                    margin-top: .5em;
-                    span{
-                        font-size: .8em;
-                        -webkit-text-stroke: 0px white;
+                span{
+                    font-size: .8em;
+                    color: white;
+                    -webkit-text-stroke: .2px rgb(255, 255, 255)
                     }
-                    .stars-svg{
-                        width: 1.2em;
-                        height: 1.2em;
-                    }
-                }
-            }
+
         }
-
-
-
+    }
 }
-// card style 
+
+
+
+/* 5 stras style */
+.full-stars {
+    display: inline-block;
+}
+.full-stars .rating-group {
+    display: inline-flex;
+}
+.full-stars input {
+    position: absolute;
+    left: -9999px;
+}
+.full-stars label {
+    margin: 0;
+    cursor: pointer;
+}
+.full-stars label svg {
+    
+    fill: #337AB7;
+    transition: fill 0.3s;
+}
+.full-stars input:checked ~ label svg {
+    fill: #BFE2FF;
+}
+.full-stars .rating-group:hover label svg {
+    fill: #337AB7;
+}
+.full-stars .rating-group input:hover ~ label svg {
+    fill: #BFE2FF;
+}
+.rating-group svg{
+    max-width: 25px;
+    min-height: 25px;
+    } 
+@media screen and (max-width:800px) {
+    .rating-group svg{
+    max-width: 20px;
+    min-height: 20px;
+    }    
+}
+
+/* 5 stars style */
+/* // card style  */
 
 
 
@@ -497,8 +534,6 @@ footer{
             align-items:last baseline;
             justify-content: space-around;
         }
-        .syntax{
-            text-align: center;
-        }
+        
     }
 }

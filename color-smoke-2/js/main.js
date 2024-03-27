@@ -1,4 +1,5 @@
 
+
 $('.txt').slick({
   dots:false,
     arrows: false,
@@ -115,24 +116,6 @@ function PopupActive (e){
 }
 
 
-// // text slider 
-// var SliderTxt = document.querySelector('slider-txt');
-// var slideTxt1 = document.querySelector('#slider-txt-1');
-// var slideTxt2 = document.querySelector('#slider-txt-2');
 
-// function autoplay (){
-  
-//   setInterval(function AddRemoveClass() {
-//         slideTxt1.classList.toggle('visible');
-//         slideTxt2.classList.remove('unvisible');
-//   }, 3000);
 
-//   setInterval(function AddRemoveClass() {
-//     slideTxt2.classList.toggle('unvisible');
-//     slideTxt1.classList.remove('visible');
-// }, 6000);
-
-// }
-
-// autoplay();
 

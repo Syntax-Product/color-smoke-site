@@ -7,14 +7,18 @@ html {
 .catalog-wrapper-grid {
   display: grid;
   grid-template-columns: 19.5rem 19.5rem 19.5rem;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 1000px) {
   .catalog-wrapper-grid {
     display: grid;
     grid-template-columns: 19.5rem 19.5rem;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 0;
   }
 }
@@ -27,7 +31,11 @@ html {
     display: grid;
     max-width: 80%;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-}/*# sourceMappingURL=catalog.css.map */
+}

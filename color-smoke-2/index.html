@@ -1,0 +1,725 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color-Smoke</title>
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/home-media.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/default-media.css">
+
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Jua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inria+Serif:wght@300;400;700&family=Jua&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+
+   
+
+ </head>
+ <body>
+
+<header>
+<!--адаптивный хэдэр-->
+    <div class="header-media">
+        <div class="header-media__navigation">
+
+            <div class="burger-popup-wrapper"><!-- вспомогательный класс для абсолютного позициоинрования меню -->
+                
+                <div class="header-media__nav_popup">                    
+                        <nav>
+                            <ul>
+                               
+                                <li><a id="home" href="#">Главная</a></li>
+                                <li><a href="#">Корзина</a></li>
+                                <li><a href="#">Каталог</a></li>
+                                <li><a href="#">Гендер-пати</a></li>
+                                <li><a href="#"> +7(990) 071-60-41 </a></li>
+                            </ul>
+                        </nav>                                     
+                </div>
+
+               
+                
+                <button type="button" class="burger" >
+                    <span></span>
+                        <span></span>
+                        <span></span>
+                </button>
+            </div>
+
+            <div>-</div>
+            
+
+            <p class="header-media__nav_logo">
+                Color Smoke
+            </p>
+
+            <a class="header-media__nav_basket"  href="#">
+                <img src="icons/little-basket.svg" alt="corsina-image">
+            </a>
+
+        </div>
+
+       
+    </div>
+<!-- адаптивный хэдэр-->
+
+<!-- основной хэдэр  -->
+    <div class="header-body">
+    <div class="header-body__container">
+        <nav>
+            <ul>
+                <li><a href="catalog.html">КАТАЛОГ</a></li>
+                <li><a href="product.html">ГЕНДЕР-ПАТИ</a></li>
+                <li><a id="logo"  href="index.html">Color Smoke</a></li>
+                <li>
+                    <div class="flex">
+                        <img src="icons/little-basket.svg" width="30px" height="30px" alt="">
+                    <a href="baket.html">КОРЗИНА</a>
+                    </div>
+                </li>
+                <li>
+                   
+                    <a href="#footer"> КОНТАКТЫ</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+<!-- основной хэдэр  -->
+
+<!-- кнопка и заголовок -->
+<h1>
+    ЦВЕТНОЙ ДЫМ И ДЫМОВЫЕ ШАШКИ <br>ДЛЯ ВАШЕЙ ИДЕАЛЬНОЙ ФОТОСЕССИИ
+</h1>
+<div class="button-wrapper"> <!-- обертка для анимации нажатия кнопки  -->
+    <button type="button"  class="go-catalog button" >
+        перейти в каталог
+    </button>
+</div>
+<!-- кнопка и заголовок -->
+</header>
+
+
+
+
+<main>
+<!-- текстовый слайдер автоплэй -->
+   
+    <div class="txt" >
+        <div>
+            9 НАСЫЩЕННЫХ ЦВЕТОВ
+        </div>
+        <div>
+            ТЫСЯЧИ ЯРКИХ ФОТОГРАФИЙ 
+        </div>
+       
+         
+    
+    </div>
+<!-- текстовый слайдер автоплэй -->
+
+
+<div class="container">
+
+<section class="catalog-items" >
+    <h2 class="catalog-items__title display-none" >
+        <span>ТОП</span> ПРОДАЖ 
+    </h2>
+    
+<!-- слайдер с карточками товара  -->
+    <div class="card-slider">
+
+        <section class="card">
+            <!-- верхняя часть карточки товара -->
+                <div class="card-top">
+                    <img src="img/smoke-card.png" alt="">
+                    <div class="color-buttons-wrapper" >
+                        <button class="color-button" id="red" ></button>
+                        <button class="color-button" id="yellow" ></button>
+                    </div>
+                </div>
+            <!-- верхняя часть карточки товара -->
+            <!-- нижняя часть карточки товара -->
+                <div class="card-bottom">
+            
+                    <div class="card-bottom__prices-baket ">
+                        <div class="card-bottom_prices">
+                            <p class="new-price" >
+                                1735 <span>&#8381;</span>
+                            </p>
+                            <p class="old-price" >
+                               1735 <span>&#8381;</span> 
+                            </p>
+                            <span class="sale">
+                                -12%
+                            </span>
+                        </div>
+                        <div class="card-bottom_baket">
+                            <a href="#">
+                                <img width="40px" height="40px"  src="icons/little-basket.svg" alt="">
+                             </a>
+                        </div>
+                    </div>
+            
+                <div class="card-bottom__title-stars">
+                    <!--  -->
+                    <h3 class="card_title" >
+                        Цветной дым MAXEM
+                    </h3>
+                    <p class="card_discription">
+                        Время горения 60сек 
+                    </p>
+                    <!--  -->
+                    <div class="card_stars-wrapper">
+                        <div class="full-stars">
+                            <div class="rating-group">
+                                <!-- по умолчанию 0 -->
+                                <input name="fst" value="0" type="radio" disabled checked />
+                                
+                                <!-- рейтинг 1 -->    
+                                <label for="fst-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-1" value="1" type="radio" />
+                                
+                                <!-- рейтинг 2 -->    
+                                <label for="fst-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-2" value="2" type="radio" />
+                                
+                                <!-- рейтинг 3 -->    
+                                <label for="fst-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-3" value="3" type="radio" />
+                                
+                                <!-- рейтинг 4 -->        
+                                <label for="fst-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-4" value="4" type="radio" />
+                                
+                                <!-- рейтинг 5 -->    
+                                <label for="fst-5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-5" value="5" type="radio" />
+                            </div>
+                        </div> 
+                        <span>
+                            28 отзывов
+                        </span>
+                    </div>
+                </div>
+            
+                   
+            
+                </div>
+            <!-- нижняя часть карточки товара -->
+            
+            
+            </section>  
+
+            <section class="card">
+            <!-- верхняя часть карточки товара -->
+                <div class="card-top">
+                    <img src="img/smoke-card.png" alt="">
+                    <div class="color-buttons-wrapper" >
+                        <button class="color-button" id="red" ></button>
+                        <button class="color-button" id="yellow" ></button>
+                    </div>
+                </div>
+            <!-- верхняя часть карточки товара -->
+            <!-- нижняя часть карточки товара -->
+                <div class="card-bottom">
+            
+                    <div class="card-bottom__prices-baket ">
+                        <div class="card-bottom_prices">
+                            <p class="new-price" >
+                                1735 <span>&#8381;</span>
+                            </p>
+                            <p class="old-price" >
+                               1735 <span>&#8381;</span> 
+                            </p>
+                            <span class="sale">
+                                -12%
+                            </span>
+                        </div>
+                        <div class="card-bottom_baket">
+                            <a href="#">
+                                <img width="40px" height="40px"  src="icons/little-basket.svg" alt="">
+                             </a>
+                        </div>
+                    </div>
+            
+                <div class="card-bottom__title-stars">
+                    <!--  -->
+                    <h3 class="card_title" >
+                        Цветной дым MAXEM
+                    </h3>
+                    <p class="card_discription">
+                        Время горения 60сек 
+                    </p>
+                    <!--  -->
+                    <div class="card_stars-wrapper">
+                        <div class="full-stars">
+                            <div class="rating-group">
+                                <!-- по умолчанию 0 -->
+                                <input name="fst" value="0" type="radio" disabled checked />
+                                
+                                <!-- рейтинг 1 -->    
+                                <label for="fst-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-1" value="1" type="radio" />
+                                
+                                <!-- рейтинг 2 -->    
+                                <label for="fst-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-2" value="2" type="radio" />
+                                
+                                <!-- рейтинг 3 -->    
+                                <label for="fst-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-3" value="3" type="radio" />
+                                
+                                <!-- рейтинг 4 -->        
+                                <label for="fst-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-4" value="4" type="radio" />
+                                
+                                <!-- рейтинг 5 -->    
+                                <label for="fst-5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-5" value="5" type="radio" />
+                            </div>
+                        </div> 
+                        <span>
+                            28 отзывов
+                        </span>
+                    </div>
+                </div>
+            
+                   
+            
+                </div>
+            <!-- нижняя часть карточки товара -->
+            
+            
+            </section>      
+
+            <section class="card">
+                <!-- верхняя часть карточки товара -->
+                    <div class="card-top">
+                        <img src="img/smoke-card.png" alt="">
+                        <div class="color-buttons-wrapper" >
+                            <button class="color-button" id="red" ></button>
+                            <button class="color-button" id="yellow" ></button>
+                        </div>
+                    </div>
+                <!-- верхняя часть карточки товара -->
+                <!-- нижняя часть карточки товара -->
+                    <div class="card-bottom">
+                
+                        <div class="card-bottom__prices-baket ">
+                            <div class="card-bottom_prices">
+                                <p class="new-price" >
+                                    1735 <span>&#8381;</span>
+                                </p>
+                                <p class="old-price" >
+                                   1735 <span>&#8381;</span> 
+                                </p>
+                                <span class="sale">
+                                    -12%
+                                </span>
+                            </div>
+                            <div class="card-bottom_baket">
+                                <a href="#">
+                                    <img width="40px" height="40px"  src="icons/little-basket.svg" alt="">
+                                 </a>
+                            </div>
+                        </div>
+                
+                    <div class="card-bottom__title-stars">
+                        <!--  -->
+                        <h3 class="card_title" >
+                            Цветной дым MAXEM
+                        </h3>
+                        <p class="card_discription">
+                            Время горения 60сек 
+                        </p>
+                        <!--  -->
+                        <div class="card_stars-wrapper">
+                            <div class="full-stars">
+                                <div class="rating-group">
+                                    <!-- по умолчанию 0 -->
+                                    <input name="fst" value="0" type="radio" disabled checked />
+                                    
+                                    <!-- рейтинг 1 -->    
+                                    <label for="fst-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-1" value="1" type="radio" />
+                                    
+                                    <!-- рейтинг 2 -->    
+                                    <label for="fst-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-2" value="2" type="radio" />
+                                    
+                                    <!-- рейтинг 3 -->    
+                                    <label for="fst-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-3" value="3" type="radio" />
+                                    
+                                    <!-- рейтинг 4 -->        
+                                    <label for="fst-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-4" value="4" type="radio" />
+                                    
+                                    <!-- рейтинг 5 -->    
+                                    <label for="fst-5">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-5" value="5" type="radio" />
+                                </div>
+                            </div> 
+                            <span>
+                                28 отзывов
+                            </span>
+                        </div>
+                    </div>
+                
+                       
+                
+                    </div>
+                <!-- нижняя часть карточки товара -->
+                
+                
+                </section> 
+
+         <section class="card">
+            <!-- верхняя часть карточки товара -->
+                <div class="card-top">
+                    <img src="img/smoke-card.png" alt="">
+                    <div class="color-buttons-wrapper" >
+                        <button class="color-button" id="red" ></button>
+                        <button class="color-button" id="yellow" ></button>
+                    </div>
+                </div>
+            <!-- верхняя часть карточки товара -->
+            <!-- нижняя часть карточки товара -->
+                <div class="card-bottom">
+            
+                    <div class="card-bottom__prices-baket ">
+                        <div class="card-bottom_prices">
+                            <p class="new-price" >
+                                1735 <span>&#8381;</span>
+                            </p>
+                            <p class="old-price" >
+                               1735 <span>&#8381;</span> 
+                            </p>
+                            <span class="sale">
+                                -12%
+                            </span>
+                        </div>
+                        <div class="card-bottom_baket">
+                            <a href="#">
+                                <img width="40px" height="40px"  src="icons/little-basket.svg" alt="">
+                             </a>
+                        </div>
+                    </div>
+            
+                <div class="card-bottom__title-stars">
+                    <!--  -->
+                    <h3 class="card_title" >
+                        Цветной дым MAXEM
+                    </h3>
+                    <p class="card_discription">
+                        Время горения 60сек 
+                    </p>
+                    <!--  -->
+                    <div class="card_stars-wrapper">
+                        <div class="full-stars">
+                            <div class="rating-group">
+                                <!-- по умолчанию 0 -->
+                                <input name="fst" value="0" type="radio" disabled checked />
+                                
+                                <!-- рейтинг 1 -->    
+                                <label for="fst-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-1" value="1" type="radio" />
+                                
+                                <!-- рейтинг 2 -->    
+                                <label for="fst-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-2" value="2" type="radio" />
+                                
+                                <!-- рейтинг 3 -->    
+                                <label for="fst-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-3" value="3" type="radio" />
+                                
+                                <!-- рейтинг 4 -->        
+                                <label for="fst-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-4" value="4" type="radio" />
+                                
+                                <!-- рейтинг 5 -->    
+                                <label for="fst-5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-5" value="5" type="radio" />
+                            </div>
+                        </div> 
+                        <span>
+                            28 отзывов
+                        </span>
+                    </div>
+                </div>
+            
+                   
+            
+                </div>
+            <!-- нижняя часть карточки товара -->
+            
+            
+            </section>        
+
+          <section class="card">
+            <!-- верхняя часть карточки товара -->
+                <div class="card-top">
+                    <img src="img/smoke-card.png" alt="">
+                    <div class="color-buttons-wrapper" >
+                        <button class="color-button" id="red" ></button>
+                        <button class="color-button" id="yellow" ></button>
+                    </div>
+                </div>
+            <!-- верхняя часть карточки товара -->
+            <!-- нижняя часть карточки товара -->
+                <div class="card-bottom">
+            
+                    <div class="card-bottom__prices-baket ">
+                        <div class="card-bottom_prices">
+                            <p class="new-price" >
+                                1735 <span>&#8381;</span>
+                            </p>
+                            <p class="old-price" >
+                               1735 <span>&#8381;</span> 
+                            </p>
+                            <span class="sale">
+                                -12%
+                            </span>
+                        </div>
+                        <div class="card-bottom_baket">
+                            <a href="#">
+                                <img width="40px" height="40px"  src="icons/little-basket.svg" alt="">
+                             </a>
+                        </div>
+                    </div>
+            
+                <div class="card-bottom__title-stars">
+                    <!--  -->
+                    <h3 class="card_title" >
+                        Цветной дым MAXEM
+                    </h3>
+                    <p class="card_discription">
+                        Время горения 60сек 
+                    </p>
+                    <!--  -->
+                    <div class="card_stars-wrapper">
+                        <div class="full-stars">
+                            <div class="rating-group">
+                                <!-- по умолчанию 0 -->
+                                <input name="fst" value="0" type="radio" disabled checked />
+                                
+                                <!-- рейтинг 1 -->    
+                                <label for="fst-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-1" value="1" type="radio" />
+                                
+                                <!-- рейтинг 2 -->    
+                                <label for="fst-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-2" value="2" type="radio" />
+                                
+                                <!-- рейтинг 3 -->    
+                                <label for="fst-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-3" value="3" type="radio" />
+                                
+                                <!-- рейтинг 4 -->        
+                                <label for="fst-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-4" value="4" type="radio" />
+                                
+                                <!-- рейтинг 5 -->    
+                                <label for="fst-5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>
+                                </label>
+                                <input name="fst" id="fst-5" value="5" type="radio" />
+                            </div>
+                        </div> 
+                        <span>
+                            28 отзывов
+                        </span>
+                    </div>
+                </div>
+            
+                   
+            
+                </div>
+            <!-- нижняя часть карточки товара -->
+            
+            
+            </section>              
+
+    </div>
+<!-- слайдер с карточками товара  -->
+<div class="button-wrapper"> <!-- обертка для анимации нажатия кнопки  -->
+    <button type="button"  class="go-catalog button" >
+        перейти в каталог
+    </button>
+</div>
+</section>
+
+</div>
+
+<div class="slider-img-wrapper" >
+    <div class="slider-img" >
+        
+            <img class="slider-imgage" src="img/slider-img-2.png" alt="">
+            <img class="slider-imgage"src="img/slider-img-1.jpg" alt="">
+            <img class="slider-imgage"  src="img/slider-img-2.png" alt="">
+            <img class="slider-imgage" src="img/slider-img-1.jpg" alt="">
+            <img class="slider-imgage" src="img/slider-img-2.png" alt="">
+            
+    </div>
+</div>
+
+
+<div class="container">
+
+    <div class="icons-wrapper">
+
+        <div class="icons-wrapper__top-left">
+            <div class="icon-content">
+                <img  class="icon" src="icons/guarantee.svg" alt="">
+                <div class="content-flex-wrapper">
+                    <span>100%</span>
+                    <p>гарантия <br>на продукт</p>
+                </div>
+            </div>
+            <div class="icon-content">
+                <img  class="icon" src="icons/termometer.svg" alt="">
+                <div class="content-flex-wrapper">
+                    <span>НЕ</span>
+                    <p>греется <br>в руках</p>
+                </div>
+            </div>
+            <div class="icon-content">
+                <img  class="icon" src="icons/like.svg" alt="">
+                <div class="content-flex-wrapper">
+                    <span>ЛУЧШИЙ</span>
+                    <p>выбор <br>фотографов</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="icons-wrapper__bottom-right">
+            <div class="icon-content">
+                <img  class="icon" src="icons/big-basket.svg" alt="">
+                <div class="content-flex-wrapper">
+                    <span>70%</span>
+                    <p>делают <br>повторную покупку</p>
+                </div>
+            </div>
+            <div class="icon-content">
+                <img  class="icon" src="icons/post-box.svg" alt="">
+                <div class="content-flex-wrapper">
+                    <span>20+</span>
+                    <p>тысяч <br>отправок</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+<footer id="footer">
+    <div class="footer-container">
+
+        <div class="footer-icons-wrapper">
+            <a href=""><img src="icons/tik-tok.svg" alt="" class="footer-icon"></a>
+           <a href=""><img src="icons/telegram.svg" alt="" class="footer-icon"></a>
+           <a href=""><img src="icons/youtube.svg" alt="" class="footer-icon"></a> 
+        </div>
+
+        <div class="footer-contacts-wrapper">
+            <p class="number" >
+                <span>Пн-Сб 9:00-17:00</span> <br>
+                +7 (990) 071-60-41
+            </p>
+
+            <p class="gmail" >
+                <span>Почта</span><br>
+                color-smoke@gmail.com
+            </p>
+        </div>
+
+        <p class="syntax">
+            Designed by 
+        </p>
+
+    </div>
+</footer>
+</main>
+    
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+<script src="js/slick.min.js" ></script>
+<script src="js/main.js" ></script>
+
+
+ </body>
+ </html>

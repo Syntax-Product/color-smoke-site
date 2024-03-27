@@ -35,7 +35,7 @@ body{
 
     .product_images{
         img{
-            // max-width: 90%;
+            max-width: 90%;
             height: auto;
         }
     }
@@ -65,6 +65,8 @@ body{
 
 /* definetion */
 .product_definition {
+    width: 99%;
+    box-sizing: border-box;
     h2{
 
         margin-left: 1rem;
@@ -81,13 +83,24 @@ body{
 
 
 /* user review + form */
-input,textarea{
-    border: 1px solid white;
-    border-radius: 1rem;
-    background-color: rgba(7, 6, 7, 0.6);
-    color: white;
-    -webkit-text-stroke: 0px black;
+.review{
+    max-width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    input,textarea{
+        border: 1px solid white;
+        border-radius: 1rem;
+        background-color: rgba(7, 6, 7, 0.6);
+        color: rgb(0, 0, 0);
+        -webkit-text-stroke: 0px black;
+        background-color: #D9D9D9;
+        padding: .3rem;
+    }
 }
+
 .label{
     color: white;
     -webkit-text-stroke: .7px black ;
@@ -96,12 +109,30 @@ input,textarea{
 }
 
 .make-review{
-    width: auto;
+   max-width: 450px;
+   box-sizing: border-box;
+    padding: .8rem;
+    background-color: rgba(7, 6, 7, 0.6);
     display: inline-block;
-    margin: 0 auto ;
+    margin: 0  auto ;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    
+
 }
 
 
+.make-review__form{
+    display: flex;
+    @media screen and (max-width:415px) {
+        display: block;
+        
+    }
+}
+.make-review__form-wrapper:first-child{
+    margin-right: 1rem;
+
+}
  /* USER COMMENT WRAPPEP style--> */
 
  .user-review{
@@ -194,4 +225,37 @@ input,textarea{
 
 
 
+.make-review__raiting{
+    position: relative;
+}
 
+.full-stars {
+    text-align: center;
+}
+.full-stars .rating-group {
+    display: inline-flex;
+}
+.full-stars input {
+    position: absolute;
+    left: -9999px;
+}
+.full-stars label {
+    margin: 0;
+    cursor: pointer;
+}
+.full-stars label svg {
+    margin: 2px;
+    height: 40px;
+    width: 40px;
+    fill: #337AB7;
+    transition: fill 0.3s;
+}
+.full-stars input:checked ~ label svg {
+    fill: #BFE2FF;
+}
+.full-stars .rating-group:hover label svg {
+    fill: #337AB7;
+}
+.full-stars .rating-group input:hover ~ label svg {
+    fill: #BFE2FF;
+}
